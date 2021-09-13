@@ -1,13 +1,4 @@
-#Multi Level Feedback Queue Scheduling algorithm
-#The algorith divivide the ready_queue into three sub-queue
-#Sub-queue partitioned based on priority given to the process
-#Partition Queues are High-Queue(system process),Medium-Queue(interactive process),Low-Queue(batch process)
-#High-Queue work with  PRIORITY SCHEDULING(priority based on cpu burst time)
-#Medium-Queue works with ROUND ROBIN SCHEDULING(quantum value assign)
-#Low-Queue works with FCFSS 
-#Higher priority process might be removed from High-Queue and moved to Medium-Queue if interupt occur
-#Medium priority process might move up if Medium-Queue head wait for long time
-#Lower priority process might move up if Low-Queue head is wait for logn time 
+
 
 
 import time
